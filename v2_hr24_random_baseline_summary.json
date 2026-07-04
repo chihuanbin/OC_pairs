@@ -1,0 +1,13 @@
+{
+  "parent_catalog": "Hunt & Reffert 2024 clusters.dat",
+  "parent_rows_raw": 7167,
+  "parent_rows_after_filters": 2967,
+  "random_pairs_requested": 100000,
+  "random_pairs_retained": 100000,
+  "rv_required": true,
+  "quality_cut_cmd_gt_0p5_cst_gt_5": true,
+  "separation_max_pc": null,
+  "median_energy_ratio": 868961.4422564848,
+  "fraction_bound_energy": 0.0,
+  "median_dsi": 0.0010727530241787285
+}

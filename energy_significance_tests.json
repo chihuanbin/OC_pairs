@@ -1,0 +1,14 @@
+{
+  "observed_n": 83,
+  "baseline_n": 100000,
+  "observed_median_log10_energy_ratio": 3.8174316598396807,
+  "baseline_median_log10_energy_ratio": 3.661917451094157,
+  "ks_statistic": 0.11931506024096389,
+  "ks_pvalue": 0.17349855336597647,
+  "anderson_darling_statistic": 1.2062503695938425,
+  "anderson_darling_pvalue": 0.10357440961095533,
+  "bic_null_shared_gaussian": 228074.8315631471,
+  "bic_alt_separate_gaussians": 228081.25309311514,
+  "ln_bayes_factor_alt_over_null_bic": -3.2107649840181693,
+  "empirical_p_median_le_observed": 0.9336
+}

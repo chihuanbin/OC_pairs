@@ -1,0 +1,122 @@
+{
+  "main_n": 83,
+  "main_fraction_expanding": 0.6144578313253012,
+  "main_median_expansion_factor": 1.0532338122814042,
+  "main_fraction_dmin_lt_20": 0.08433734939759036,
+  "main_fraction_dmin_lt_50": 0.37349397590361444,
+  "binomial_vs_0p5_pvalue": 0.023762444628265912,
+  "spearman_age_vs_ef": {
+    "rho": 0.18134606423402622,
+    "p_value": 0.10085550542499223
+  },
+  "spearman_dsi_vs_ef": {
+    "rho": 0.3313056121862288,
+    "p_value": 0.0022173353543855478
+  },
+  "spearman_energy_ratio_vs_ef": {
+    "rho": -0.3313056121862288,
+    "p_value": 0.0022173353543855478
+  },
+  "energy": {
+    "median_energy_ratio": 6567.977552835008,
+    "min_energy_ratio": 72.71077771656135,
+    "max_energy_ratio": 213300.84549449728,
+    "fraction_bound_energy": 0.0,
+    "max_ratio_identity_absdiff": 43.38680366234621,
+    "max_ratio_identity_reldiff": 0.00033501127653654786
+  },
+  "internal_control": {
+    "sample": "Table_3_all_candidates",
+    "n": 159,
+    "fraction_expanding": 0.5849056603773585,
+    "median_expansion_factor": 1.0497884153360058,
+    "fraction_dmin_lt_20": 0.06289308176100629,
+    "fraction_dmin_lt_50": 0.27672955974842767,
+    "delta_fraction_expanding": 0.029552170947942713,
+    "ks_statistic_ef": 0.03584147912404334,
+    "ks_pvalue_ef": 0.9999961410873124,
+    "caveat": "Internal candidate-control only; not a substitute for an HR24 parent random-pair baseline."
+  },
+  "ef_dynamics_fit": {
+    "spearman_ef_dsi": {
+      "rho": 0.3313056121862288,
+      "p_value": 0.0022173353543855478
+    },
+    "spearman_ef_energy_ratio": {
+      "rho": -0.3313056121862288,
+      "p_value": 0.0022173353543855478
+    },
+    "pearson_logef_logdsi": 0.1904898544423181,
+    "pearson_logef_log_energy_ratio": -0.1904921132208377,
+    "robust_logef_logdsi": {
+      "n": 83,
+      "intercept": 0.2511995650057865,
+      "slope": 0.090284925251229,
+      "scale": 0.10778192182826553
+    },
+    "robust_logef_log_energy_ratio": {
+      "n": 83,
+      "intercept": 0.25120390944278975,
+      "slope": -0.045142602129388365,
+      "scale": 0.10777893525723625
+    }
+  },
+  "hr24_static_baseline": {
+    "parent_catalog": "Hunt & Reffert 2024 clusters.dat",
+    "parent_rows_raw": 7167,
+    "parent_rows_after_filters": 2967,
+    "random_pairs_requested": 100000,
+    "random_pairs_retained": 100000,
+    "rv_required": true,
+    "quality_cut_cmd_gt_0p5_cst_gt_5": true,
+    "separation_max_pc": null,
+    "median_energy_ratio": 868961.4422564848,
+    "fraction_bound_energy": 0.0,
+    "median_dsi": 0.0010727530241787285
+  },
+  "hr24_ef_baseline": {
+    "summary": {
+      "parent_rows_raw": 7167,
+      "parent_rows_after_filters": 2967,
+      "control": "separation_matched",
+      "random_pairs_requested": 100000,
+      "random_pairs_retained": 100000,
+      "pool_size": 21444,
+      "sampled_with_replacement": true,
+      "duration_myr": 200.0,
+      "n_steps": 401,
+      "fraction_expanding": 0.52124,
+      "median_expansion_factor": 1.0055538706422855,
+      "fraction_dmin_lt_20": 0.06923,
+      "fraction_dmin_lt_50": 0.32025,
+      "median_energy_ratio": 4591.107386650878,
+      "fraction_bound_energy": 0.0
+    },
+    "ef_tests": {
+      "observed_fraction_expanding": 0.6144578313253012,
+      "baseline_fraction_expanding": 0.52124,
+      "observed_median_ef": 1.0532338122814042,
+      "baseline_median_ef": 1.0055538706422855,
+      "ks_statistic": 0.14978493975903606,
+      "ks_pvalue": 0.043270796707487506,
+      "anderson_darling_statistic": 3.616940909641602,
+      "anderson_darling_pvalue": 0.011261179006988541,
+      "empirical_p_fraction_ge_observed": 0.0536,
+      "empirical_p_median_ge_observed": 0.0602
+    },
+    "energy_tests": {
+      "observed_n": 83,
+      "baseline_n": 100000,
+      "observed_median_log10_energy_ratio": 3.8174316598396807,
+      "baseline_median_log10_energy_ratio": 3.661917451094157,
+      "ks_statistic": 0.11931506024096389,
+      "ks_pvalue": 0.17349855336597647,
+      "anderson_darling_statistic": 1.2062503695938425,
+      "anderson_darling_pvalue": 0.10357440961095533,
+      "bic_null_shared_gaussian": 228074.8315631471,
+      "bic_alt_separate_gaussians": 228081.25309311514,
+      "ln_bayes_factor_alt_over_null_bic": -3.2107649840181693,
+      "empirical_p_median_le_observed": 0.9336
+    }
+  }
+}

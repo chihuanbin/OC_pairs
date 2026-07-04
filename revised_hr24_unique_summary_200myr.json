@@ -1,0 +1,15 @@
+{
+  "parent_rows_raw": 7167,
+  "parent_rows_after_filters": 2967,
+  "unique_pair_pool_size": 21444,
+  "duration_myr": 200.0,
+  "n_steps": 401,
+  "fraction_expanding": 0.5375396381272151,
+  "median_expansion_factor": 1.0105885891167299,
+  "fraction_dmin_lt_20": 0.01315053161723559,
+  "fraction_dmin_lt_50": 0.07731766461481067,
+  "median_energy_ratio": 11509.072892758204,
+  "median_vrel_kms": 21.08692367321444,
+  "median_vesc_kms": 0.18976396393715417,
+  "median_dsi": 0.009321371793419894
+}

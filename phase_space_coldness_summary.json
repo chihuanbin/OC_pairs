@@ -1,0 +1,10 @@
+{
+  "observed_median_separation_pc": 88.83905,
+  "baseline_median_separation_pc": 87.84572107976342,
+  "observed_median_vrel_kms": 12.39525,
+  "baseline_median_vrel_kms": 18.85029267836036,
+  "observed_median_dsi": 0.0123403231062964,
+  "baseline_median_dsi": 0.0147584678804954,
+  "observed_median_energy_ratio": 6567.977552835008,
+  "baseline_median_energy_ratio": 4591.107386650878
+}

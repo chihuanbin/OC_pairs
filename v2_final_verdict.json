@@ -1,0 +1,55 @@
+{
+  "dissolution_clock": {
+    "status": "rejected",
+    "reason": "Constant-null model is preferred by BIC and age vs bound probability is not significant.",
+    "best_by_bic": "constant_null",
+    "alpha": -0.0007406020223884293,
+    "spearman_age_vs_p_bound": {
+      "spearman_rho": 0.106810693365013,
+      "p_value": 0.33650837793998767
+    }
+  },
+  "energy_bound_population": {
+    "status": "rejected",
+    "reason": "All high-confidence pairs have E_k/E_g > 1; no pair is formally energy-bound.",
+    "median_energy_ratio": 6567.977552835008,
+    "fraction_bound_energy": 0.0
+  },
+  "ef_random_baseline": {
+    "status": "borderline_supported",
+    "reason": "EF distribution differs from the HR24 separation-matched random baseline in KS/AD, but subset empirical p-values are near 0.05 rather than decisive.",
+    "control": "separation_matched",
+    "random_pairs_retained": 100000,
+    "pool_size": 21444,
+    "sampled_with_replacement": true,
+    "observed_fraction_expanding": 0.6144578313253012,
+    "baseline_fraction_expanding": 0.52124,
+    "ks_pvalue": 0.043270796707487506,
+    "anderson_darling_pvalue": 0.011261179006988541,
+    "empirical_p_fraction_ge_observed": 0.0536,
+    "empirical_p_median_ge_observed": 0.0602
+  },
+  "energy_distribution_vs_hr24": {
+    "status": "not_distinct",
+    "reason": "KS/AD are not significant and the BIC Bayes factor favors the shared-distribution null over separate Gaussian log-energy models.",
+    "ks_pvalue": 0.17349855336597647,
+    "anderson_darling_pvalue": 0.10357440961095533,
+    "ln_bayes_factor_alt_over_null_bic": -3.2107649840181693
+  },
+  "phase_space_coldness": {
+    "status": "mixed",
+    "reason": "At matched separation, observed pairs have lower median Vrel, but not lower E_k/E_g or higher DSI than the HR24 EF baseline.",
+    "observed_median_separation_pc": 88.83905,
+    "baseline_median_separation_pc": 87.84572107976342,
+    "observed_median_vrel_kms": 12.39525,
+    "baseline_median_vrel_kms": 18.85029267836036,
+    "observed_median_dsi": 0.0123403231062964,
+    "baseline_median_dsi": 0.0147584678804954,
+    "observed_median_energy_ratio": 6567.977552835008,
+    "baseline_median_energy_ratio": 4591.107386650878
+  },
+  "paper_claim": {
+    "recommended_framing": "Replace the dissolution clock with a cautious fossil cluster-complex signal: EF excess is marginal relative to HR24 random pairs; energy binding/coldness is not the decisive evidence.",
+    "main_caveat": "The separation-matched 100000-pair EF baseline samples with replacement because the available pool contains only 21444 pairs."
+  }
+}

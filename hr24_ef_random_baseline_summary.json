@@ -1,0 +1,45 @@
+{
+  "summary": {
+    "parent_rows_raw": 7167,
+    "parent_rows_after_filters": 2967,
+    "control": "separation_matched",
+    "random_pairs_requested": 100000,
+    "random_pairs_retained": 100000,
+    "pool_size": 21444,
+    "sampled_with_replacement": true,
+    "duration_myr": 200.0,
+    "n_steps": 401,
+    "fraction_expanding": 0.52124,
+    "median_expansion_factor": 1.0055538706422855,
+    "fraction_dmin_lt_20": 0.06923,
+    "fraction_dmin_lt_50": 0.32025,
+    "median_energy_ratio": 4591.107386650878,
+    "fraction_bound_energy": 0.0
+  },
+  "ef_tests": {
+    "observed_fraction_expanding": 0.6144578313253012,
+    "baseline_fraction_expanding": 0.52124,
+    "observed_median_ef": 1.0532338122814042,
+    "baseline_median_ef": 1.0055538706422855,
+    "ks_statistic": 0.14978493975903606,
+    "ks_pvalue": 0.043270796707487506,
+    "anderson_darling_statistic": 3.616940909641602,
+    "anderson_darling_pvalue": 0.011261179006988541,
+    "empirical_p_fraction_ge_observed": 0.0536,
+    "empirical_p_median_ge_observed": 0.0602
+  },
+  "energy_tests": {
+    "observed_n": 83,
+    "baseline_n": 100000,
+    "observed_median_log10_energy_ratio": 3.8174316598396807,
+    "baseline_median_log10_energy_ratio": 3.661917451094157,
+    "ks_statistic": 0.11931506024096389,
+    "ks_pvalue": 0.17349855336597647,
+    "anderson_darling_statistic": 1.2062503695938425,
+    "anderson_darling_pvalue": 0.10357440961095533,
+    "bic_null_shared_gaussian": 228074.8315631471,
+    "bic_alt_separate_gaussians": 228081.25309311514,
+    "ln_bayes_factor_alt_over_null_bic": -3.2107649840181693,
+    "empirical_p_median_le_observed": 0.9336
+  }
+}

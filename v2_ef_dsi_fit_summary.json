@@ -1,0 +1,24 @@
+{
+  "spearman_ef_dsi": {
+    "rho": 0.3313056121862288,
+    "p_value": 0.0022173353543855478
+  },
+  "spearman_ef_energy_ratio": {
+    "rho": -0.3313056121862288,
+    "p_value": 0.0022173353543855478
+  },
+  "pearson_logef_logdsi": 0.1904898544423181,
+  "pearson_logef_log_energy_ratio": -0.1904921132208377,
+  "robust_logef_logdsi": {
+    "n": 83,
+    "intercept": 0.2511995650057865,
+    "slope": 0.090284925251229,
+    "scale": 0.10778192182826553
+  },
+  "robust_logef_log_energy_ratio": {
+    "n": 83,
+    "intercept": 0.25120390944278975,
+    "slope": -0.045142602129388365,
+    "scale": 0.10777893525723625
+  }
+}
